@@ -1,0 +1,28 @@
+.Menu {
+	background-color: white;
+	padding: 8px;
+	height: 75%;
+	width: 50px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.Menu:hover {
+	cursor: pointer;
+}
+
+.Menu img {
+	height: 100%;
+}
+
+.Menu div {
+	width: 100%;
+	background-color: black;
+	height: 4px;
+	margin-top: 7px;
+	border-radius: 5px;
+}
+
+.Menu div:first-child {
+	margin-top: 1px;
+}
