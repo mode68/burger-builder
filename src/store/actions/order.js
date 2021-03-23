@@ -10,7 +10,6 @@ export const purchaseBurgerSucess = (id, orderData) => {
 };
 
 export const purchaseBurgerFail = (error) => {
-	console.log('order request error: ', error);
 	return {
 		type: actionTypes.PURCHASE_BURGER_FAIL,
 		error: error,

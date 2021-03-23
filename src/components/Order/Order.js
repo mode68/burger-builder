@@ -30,7 +30,6 @@ const order = (props) => {
 
 	return (
 		<div className={classes.Order}>
-			{console.log('order: ', props.ingredients)}
 			<p>Ingredients: {ingredientOutput}</p>
 			<p>
 				Price: <strong>{props.price.toFixed(2)} EUR</strong>
