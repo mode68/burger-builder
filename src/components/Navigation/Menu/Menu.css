@@ -26,3 +26,9 @@
 .Menu div:first-child {
 	margin-top: 1px;
 }
+
+@media (min-width: 549px) {
+	.Menu {
+		display: none;
+	}
+}
